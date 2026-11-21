@@ -1,0 +1,326 @@
+{
+  "main": [
+    {
+      "tick": 18,
+      "feeds": {
+        "/official": {
+          "data": [
+            {
+              "docket": "K11",
+              "current": [
+                {
+                  "key": "TH-4",
+                  "rev": "A1",
+                  "text": "工作组于闭会后提交采纳文本。",
+                  "audience": [
+                    "public"
+                  ]
+                },
+                {
+                  "key": "TH-5",
+                  "rev": "B1",
+                  "text": "第六段的附件另行印发。",
+                  "audience": [
+                    "public"
+                  ]
+                }
+              ],
+              "withdrawn": [],
+              "changes": []
+            }
+          ]
+        },
+        "/translations": {
+          "data": [
+            {
+              "doc": "F-17",
+              "lang": "fr",
+              "refs": [
+                "A1",
+                "B1"
+              ],
+              "download": "/attachments/fr17"
+            }
+          ]
+        },
+        "/ack": {
+          "data": []
+        }
+      },
+      "committee": "联席一组",
+      "day": "18日",
+      "actual": [
+        {
+          "ref": "A1",
+          "translation": "Le rapport sera remis."
+        },
+        {
+          "ref": "B1",
+          "translation": "Annexe séparée."
+        }
+      ]
+    },
+    {
+      "tick": 20,
+      "feeds": {
+        "/official": {
+          "data": [
+            {
+              "docket": "K11",
+              "current": [
+                {
+                  "key": "TH-4a",
+                  "rev": "A2",
+                  "text": "报告在委员会续会时提交。",
+                  "replaces": [
+                    "A1"
+                  ],
+                  "audience": [
+                    "public"
+                  ]
+                },
+                {
+                  "key": "TH-4b",
+                  "rev": "A3",
+                  "text": "口头修正件仅在甲席可读。",
+                  "replaces": [
+                    "A1"
+                  ],
+                  "audience": [
+                    "desk-a"
+                  ]
+                },
+                {
+                  "key": "TH-5",
+                  "rev": "B1",
+                  "text": "第六段的附件另行印发。",
+                  "audience": [
+                    "public"
+                  ]
+                }
+              ],
+              "withdrawn": [
+                "A1"
+              ],
+              "changes": [
+                {
+                  "notice": "N1",
+                  "version": "A1",
+                  "kind": "split"
+                }
+              ]
+            }
+          ]
+        },
+        "/translations": {
+          "data": [
+            {
+              "doc": "F-17",
+              "lang": "fr",
+              "refs": [
+                "A2",
+                "B1"
+              ],
+              "download": "/attachments/fr17"
+            }
+          ]
+        },
+        "/ack": {
+          "data": [
+            {
+              "desk": "desk-a",
+              "issue": "I7",
+              "received": [
+                "A1",
+                "B1"
+              ]
+            },
+            {
+              "desk": "desk-b",
+              "issue": "I8",
+              "received": [
+                "A1",
+                "B1"
+              ]
+            }
+          ]
+        }
+      },
+      "committee": "文本复核组",
+      "day": "19日",
+      "actual": [
+        {
+          "ref": "A1",
+          "translation": "Le rapport sera remis."
+        },
+        {
+          "ref": "B1",
+          "translation": "Annexe séparée."
+        }
+      ]
+    },
+    {
+      "tick": 21,
+      "feeds": {
+        "/official": {
+          "data": [
+            {
+              "docket": "K11",
+              "current": [
+                {
+                  "key": "TH-4a",
+                  "rev": "A2",
+                  "text": "报告在委员会续会时提交。",
+                  "replaces": [
+                    "A1"
+                  ],
+                  "audience": [
+                    "public"
+                  ]
+                },
+                {
+                  "key": "TH-4b",
+                  "rev": "A3",
+                  "text": "口头修正件仅在甲席可读。",
+                  "replaces": [
+                    "A1"
+                  ],
+                  "audience": [
+                    "desk-a"
+                  ]
+                },
+                {
+                  "key": "TH-5",
+                  "rev": "B1",
+                  "text": "第六段的附件另行印发。",
+                  "audience": [
+                    "desk-a"
+                  ]
+                }
+              ],
+              "withdrawn": [
+                "A1"
+              ],
+              "changes": [
+                {
+                  "notice": "N1",
+                  "version": "A1",
+                  "kind": "split"
+                },
+                {
+                  "notice": "N2",
+                  "version": "B1",
+                  "kind": "scope",
+                  "desksRemoved": [
+                    "desk-b"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "/translations": {
+          "data": [
+            {
+              "doc": "F-17",
+              "lang": "fr",
+              "refs": [
+                "B1"
+              ],
+              "download": "/attachments/fr17"
+            },
+            {
+              "doc": "F-21",
+              "lang": "fr",
+              "refs": [
+                "A2"
+              ],
+              "download": "/attachments/fr21"
+            }
+          ]
+        },
+        "/ack": {
+          "data": [
+            {
+              "desk": "desk-a",
+              "issue": "I7",
+              "received": [
+                "A1",
+                "B1"
+              ]
+            },
+            {
+              "desk": "desk-b",
+              "issue": "I8",
+              "received": [
+                "A1",
+                "B1"
+              ]
+            },
+            {
+              "desk": "desk-b",
+              "issue": "I8",
+              "version": "A1",
+              "notice": "N1"
+            }
+          ]
+        }
+      },
+      "committee": "文本复核组",
+      "day": "19日",
+      "actual": [
+        {
+          "ref": "B1",
+          "translation": "Annexe séparée."
+        }
+      ],
+      "new": [
+        {
+          "ref": "A2",
+          "translation": "Le rapport est remis en session."
+        }
+      ]
+    },
+    {
+      "tick": 22,
+      "feeds": {
+        "/official": {
+          "data": {
+            "error": "来源维护"
+          },
+          "status": 503
+        },
+        "/translations": {
+          "data": [
+            {
+              "doc": "F-17",
+              "lang": "fr",
+              "refs": [
+                "B1"
+              ],
+              "download": "/attachments/fr17"
+            }
+          ]
+        },
+        "/ack": {
+          "data": [
+            {
+              "desk": "desk-b",
+              "issue": "I8",
+              "version": "A1",
+              "notice": "N1"
+            }
+          ]
+        }
+      },
+      "committee": "文本复核组",
+      "day": "19日",
+      "actual": [
+        {
+          "ref": "B1",
+          "translation": "Annexe séparée."
+        }
+      ]
+    }
+  ]
+}

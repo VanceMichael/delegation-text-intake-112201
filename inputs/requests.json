@@ -1,0 +1,32 @@
+{
+  "desks": [
+    {
+      "id": "desk-a",
+      "docket": "K11",
+      "language": "fr"
+    },
+    {
+      "id": "desk-b",
+      "docket": "K11",
+      "language": "fr"
+    }
+  ],
+  "issuedBefore": {
+    "I7": {
+      "desk": "desk-a",
+      "docket": "K11",
+      "versions": [
+        "A1",
+        "B1"
+      ]
+    },
+    "I8": {
+      "desk": "desk-b",
+      "docket": "K11",
+      "versions": [
+        "A1",
+        "B1"
+      ]
+    }
+  }
+}
